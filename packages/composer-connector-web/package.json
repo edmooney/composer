@@ -64,6 +64,6 @@
     "composer-common": "0.14.0",
     "composer-runtime": "0.14.0",
     "composer-runtime-web": "0.14.0",
-    "uuid": "3.0.1"
+    "uuid": "3.4.0"
   }
 }
