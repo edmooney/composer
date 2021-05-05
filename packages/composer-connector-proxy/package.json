@@ -54,7 +54,7 @@
   },
   "dependencies": {
     "composer-common": "0.14.0",
-    "socket.io-client": "1.7.3"
+    "socket.io-client": "4.0.0"
   },
   "nyc": {
     "exclude": [
