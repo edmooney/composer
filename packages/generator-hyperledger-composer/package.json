@@ -19,7 +19,7 @@
     "composer-common": "0.14.0",
     "shelljs": "0.7.7",
     "underscore.string": "3.3.4",
-    "yeoman-generator": "0.24.1"
+    "yeoman-generator": "1.1.1"
   },
   "repository": {
     "type": "git",
