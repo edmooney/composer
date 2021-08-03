@@ -14,7 +14,9 @@
     "doc": "jsdoc --pedantic --recurse -c jsdoc.json",
     "postdoc": "npm run lint",
     "lint": "eslint .",
-    "test": "karma start --single-run"
+    "test": "karma start --single-run",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -67,6 +69,8 @@
     "pouchdb-adapter-idb": "6.2.0",
     "pouchdb-adapter-websql": "6.2.0",
     "uuid": "3.0.1",
-    "xhr": "2.4.0"
-  }
+    "xhr": "2.4.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
