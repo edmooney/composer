@@ -15,7 +15,9 @@
     "lint": "eslint .",
     "postlint": "npm run licchk",
     "licchk": "license-check",
-    "test": "nyc mocha --recursive -t 10000"
+    "test": "nyc mocha --recursive -t 10000",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -54,7 +56,8 @@
     "prompt": "1.0.0",
     "sanitize-filename": "1.6.1",
     "shelljs": "0.7.7",
-    "yargs": "8.0.1"
+    "yargs": "8.0.1",
+    "@snyk/protect": "latest"
   },
   "license-check-config": {
     "src": [
@@ -87,5 +90,6 @@
     "branches": 64,
     "functions": 78,
     "lines": 83
-  }
+  },
+  "snyk": true
 }
