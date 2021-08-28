@@ -1,0 +1,164 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - composer-rest-server > composer-common > debug:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-admin > composer-connector-hlfv1 > composer-common > debug:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-client > composer-connector-hlfv1 > composer-common > debug:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-common > debug:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-client > composer-common > debug:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-client > composer-connector-hlfv1 > composer-common > debug:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > body-parser > debug:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > express-session > debug:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > helmet > connect > debug:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > helmet > connect > finalhandler > debug:
+        patched: '2021-08-28T06:37:57.658Z'
+  'npm:hoek:20180212':
+    - composer-admin > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-admin > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-admin > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-admin > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-admin > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-admin > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-admin > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-admin > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-admin > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-admin > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-admin > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-admin > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-admin > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-admin > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-admin > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-admin > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-08-28T06:37:57.658Z'
+  SNYK-JS-LODASH-567746:
+    - composer-rest-server > lodash:
+        patched: '2021-08-28T06:37:57.658Z'
+  'npm:lodash:20180130':
+    - composer-rest-server > loopback-boot > lodash:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-component-explorer > lodash:
+        patched: '2021-08-28T06:37:57.658Z'
+  'npm:mime:20170907':
+    - composer-rest-server > compression > accepts > mime:
+        patched: '2021-08-28T06:37:57.658Z'
+  'npm:ms:20170412':
+    - composer-rest-server > composer-common > debug > ms:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > body-parser > debug > ms:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > express-session > debug > ms:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-admin > composer-connector-hlfv1 > composer-common > debug > ms:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-client > composer-connector-hlfv1 > composer-common > debug > ms:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-common > debug > ms:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-client > composer-common > debug > ms:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > loopback-connector-composer > composer-client > composer-connector-hlfv1 > composer-common > debug > ms:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > helmet > connect > debug > ms:
+        patched: '2021-08-28T06:37:57.658Z'
+    - composer-rest-server > helmet > connect > finalhandler > debug > ms:
+        patched: '2021-08-28T06:37:57.658Z'
+  'npm:negotiator:20160616':
+    - composer-rest-server > compression > accepts > negotiator:
+        patched: '2021-08-28T06:37:57.658Z'
+  'npm:qs:20170213':
+    - composer-rest-server > body-parser > qs:
+        patched: '2021-08-28T06:37:57.658Z'
+  'npm:uglify-js:20151024':
+    - composer-rest-server > jade > transformers > uglify-js:
+        patched: '2021-08-28T06:37:57.658Z'
