@@ -9,7 +9,7 @@
   "main": "index.js",
   "typings": "index.d.ts",
   "scripts": {
-    "prepublish": "node ./scripts/tsgen.js",
+    "prepublish": "npm run snyk-protect && node ./scripts/tsgen.js",
     "pretest": "npm run licchk",
     "licchk": "license-check",
     "postlicchk": "npm run doc",
@@ -17,7 +17,8 @@
     "postdoc": "npm run lint",
     "lint": "eslint .",
     "test": "node ./scripts/api-changelog.js && npm run mocha",
-    "mocha": "nyc mocha --recursive -t 10000"
+    "mocha": "nyc mocha --recursive -t 10000",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -45,7 +46,8 @@
   "dependencies": {
     "composer-common": "0.14.0",
     "composer-connector-hlfv1": "0.14.0",
-    "uuid": "3.0.1"
+    "uuid": "3.0.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "chai": "3.5.0",
@@ -76,5 +78,6 @@
     "branches": 100,
     "functions": 100,
     "lines": 100
-  }
+  },
+  "snyk": true
 }
