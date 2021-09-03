@@ -1,0 +1,38 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - loopback-connector-composer > composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > hoek:
+        patched: '2021-09-03T01:37:43.324Z'
+    - loopback-connector-composer > composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > boom > hoek:
+        patched: '2021-09-03T01:37:43.324Z'
+    - loopback-connector-composer > composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2021-09-03T01:37:43.324Z'
+    - loopback-connector-composer > composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-09-03T01:37:43.324Z'
+    - loopback-connector-composer > composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > hoek:
+        patched: '2021-09-03T01:37:43.324Z'
+    - loopback-connector-composer > composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2021-09-03T01:37:43.324Z'
+    - loopback-connector-composer > composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-09-03T01:37:43.324Z'
+    - loopback-connector-composer > composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > boom > hoek:
+        patched: '2021-09-03T01:37:43.324Z'
+    - loopback-connector-composer > composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-09-03T01:37:43.324Z'
+    - loopback-connector-composer > composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2021-09-03T01:37:43.324Z'
+    - loopback-connector-composer > composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > hoek:
+        patched: '2021-09-03T01:37:43.324Z'
+    - loopback-connector-composer > composer-client > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-09-03T01:37:43.324Z'
+    - loopback-connector-composer > composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2021-09-03T01:37:43.324Z'
+    - loopback-connector-composer > composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-09-03T01:37:43.324Z'
+    - loopback-connector-composer > composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2021-09-03T01:37:43.324Z'
+    - loopback-connector-composer > composer-client > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-09-03T01:37:43.324Z'
