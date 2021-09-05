@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.21.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > boom > hoek:
+        patched: '2021-09-05T01:22:06.715Z'
+    - composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2021-09-05T01:22:06.715Z'
+    - composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-09-05T01:22:06.715Z'
+    - composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > boom > hoek:
+        patched: '2021-09-05T01:22:06.715Z'
+    - composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-09-05T01:22:06.715Z'
+    - composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2021-09-05T01:22:06.715Z'
+    - composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2021-09-05T01:22:06.715Z'
+    - composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2021-09-05T01:22:06.715Z'
