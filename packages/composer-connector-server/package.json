@@ -17,7 +17,9 @@
     "doc": "jsdoc --pedantic --recurse -c jsdoc.json",
     "postdoc": "npm run lint",
     "lint": "eslint .",
-    "test": "nyc mocha --recursive -t 10000"
+    "test": "nyc mocha --recursive -t 10000",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -49,7 +51,8 @@
     "serializerr": "1.0.3",
     "socket.io": "1.7.3",
     "uuid": "3.0.1",
-    "yargs": "8.0.1"
+    "yargs": "8.0.1",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "chai": "3.5.0",
@@ -80,5 +83,6 @@
     "branches": 100,
     "functions": 100,
     "lines": 100
-  }
+  },
+  "snyk": true
 }
