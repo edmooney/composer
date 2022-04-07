@@ -28,7 +28,7 @@
     "composer-client": "latest",
     "config": "^1.21.0",
     "shelljs": "^0.7.5",
-    "winston": "^2.2.0",
+    "winston": "^3.3.0",
     "prettyoutput": "^1.1.1",
     "yargs": "^6.5.0",
     "cli-table" : "latest"
