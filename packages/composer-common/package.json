@@ -80,7 +80,7 @@
     "thenify-all": "1.6.0",
     "uri-js": "3.0.2",
     "uuid": "3.0.1",
-    "winston": "2.3.1"
+    "winston": "3.3.0"
   },
   "license-check-config": {
     "src": [
