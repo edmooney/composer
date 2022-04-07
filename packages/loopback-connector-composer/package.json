@@ -30,7 +30,7 @@
     "composer-client": "0.14.0",
     "composer-common": "0.14.0",
     "loopback": "3.4.0",
-    "loopback-connector": "4.0.0",
+    "loopback-connector": "4.9.0",
     "node-cache": "4.1.1"
   },
   "devDependencies": {
