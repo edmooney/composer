@@ -58,7 +58,7 @@
     "pouchdb-collate": "6.2.0",
     "pouchdb-core": "6.2.0",
     "pouchdb-find": "6.2.0",
-    "request": "2.81.0",
+    "request": "2.87.0",
     "uuid": "3.0.1"
   },
   "nyc": {
