@@ -1,0 +1,152 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - composer-playground-api > composer-common > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > composer-common > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > composer-connector-hlfv1 > composer-common > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > body-parser > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > express > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > express > send > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > express > serve-static > send > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > socket.io > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > socket.io > engine.io > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > socket.io > socket.io-adapter > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > socket.io > socket.io-client > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > socket.io > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > socket.io > engine.io > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-adapter > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-client > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > socket.io > socket.io-parser > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-parser > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2022-09-05T19:13:01.062Z'
+  'npm:hoek:20180212':
+    - composer-playground-api > request > hawk > hoek:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > request > hawk > boom > hoek:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > request > hawk > sntp > hoek:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > hoek:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > boom > hoek:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > hoek:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > hoek:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > boom > hoek:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > hoek:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2022-09-05T19:13:01.062Z'
+  'npm:mime:20170907':
+    - composer-playground-api > express > send > mime:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > express > serve-static > send > mime:
+        patched: '2022-09-05T19:13:01.062Z'
+  'npm:ms:20170412':
+    - composer-playground-api > composer-common > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > body-parser > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > express > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > socket.io > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > express > send > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > composer-common > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > express > send > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > socket.io > engine.io > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > socket.io > socket.io-adapter > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > socket.io > socket.io-client > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > socket.io > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > express > serve-static > send > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > composer-connector-hlfv1 > composer-common > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > express > serve-static > send > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > socket.io > engine.io > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-adapter > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-client > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > socket.io > socket.io-parser > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-parser > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2022-09-05T19:13:01.062Z'
+  'npm:qs:20170213':
+    - composer-playground-api > body-parser > qs:
+        patched: '2022-09-05T19:13:01.062Z'
