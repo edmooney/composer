@@ -11,7 +11,9 @@
     "postdoc": "npm run lint",
     "lint": "eslint .",
     "test-inner": "mocha --recursive -t 10000 && cucumber-js",
-    "test": "nyc npm run test-inner"
+    "test": "nyc npm run test-inner",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -74,6 +76,8 @@
     "composer-client": "0.14.0",
     "composer-common": "0.14.0",
     "composer-connector-embedded": "0.14.0",
-    "thenify-all": "1.6.0"
-  }
+    "thenify-all": "1.6.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
