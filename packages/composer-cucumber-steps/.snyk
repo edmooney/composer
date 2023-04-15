@@ -1,0 +1,48 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - composer-admin > composer-common > debug:
+        patched: '2023-04-15T15:00:13.331Z'
+    - composer-admin > composer-connector-hlfv1 > composer-common > debug:
+        patched: '2023-04-15T15:00:13.331Z'
+  'npm:hoek:20180212':
+    - composer-admin > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > hoek:
+        patched: '2023-04-15T15:00:13.331Z'
+    - composer-admin > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > boom > hoek:
+        patched: '2023-04-15T15:00:13.331Z'
+    - composer-admin > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2023-04-15T15:00:13.331Z'
+    - composer-admin > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > hoek:
+        patched: '2023-04-15T15:00:13.331Z'
+    - composer-admin > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > hoek:
+        patched: '2023-04-15T15:00:13.331Z'
+    - composer-admin > composer-connector-hlfv1 > grpc > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2023-04-15T15:00:13.331Z'
+    - composer-admin > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2023-04-15T15:00:13.331Z'
+    - composer-admin > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > boom > hoek:
+        patched: '2023-04-15T15:00:13.331Z'
+    - composer-admin > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2023-04-15T15:00:13.331Z'
+    - composer-admin > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2023-04-15T15:00:13.331Z'
+    - composer-admin > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > hoek:
+        patched: '2023-04-15T15:00:13.331Z'
+    - composer-admin > composer-connector-hlfv1 > grpc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2023-04-15T15:00:13.331Z'
+    - composer-admin > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2023-04-15T15:00:13.331Z'
+    - composer-admin > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > boom > hoek:
+        patched: '2023-04-15T15:00:13.331Z'
+    - composer-admin > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > sntp > hoek:
+        patched: '2023-04-15T15:00:13.331Z'
+    - composer-admin > composer-connector-hlfv1 > fabric-client > grpc > node-pre-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2023-04-15T15:00:13.331Z'
+  'npm:ms:20170412':
+    - composer-admin > composer-common > debug > ms:
+        patched: '2023-04-15T15:00:13.331Z'
+    - composer-admin > composer-connector-hlfv1 > composer-common > debug > ms:
+        patched: '2023-04-15T15:00:13.331Z'
