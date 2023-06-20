@@ -56,7 +56,7 @@
     "composer-runtime-pouchdb": "0.14.0",
     "debug": "2.6.2",
     "istanbul-lib-instrument": "1.7.2",
-    "pouchdb-adapter-memory": "6.2.0",
+    "pouchdb-adapter-memory": "6.3.0",
     "request": "2.81.0",
     "uuid": "3.0.1"
   },
