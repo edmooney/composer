@@ -1,0 +1,35 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - composer-common > debug:
+        patched: '2023-08-29T20:26:53.712Z'
+        id: 'npm:debug:20170905'
+        path: composer-common > debug
+    - composer-connector-server > composer-common > debug:
+        patched: '2023-08-29T20:26:53.712Z'
+        id: 'npm:debug:20170905'
+        path: composer-connector-server > composer-common > debug
+    - composer-connector-server > composer-connector-hlfv1 > composer-common > debug:
+        patched: '2023-08-29T20:26:53.712Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          composer-connector-server > composer-connector-hlfv1 > composer-common
+          > debug
+  'npm:ms:20170412':
+    - composer-common > debug > ms:
+        patched: '2023-08-29T20:26:53.712Z'
+        id: 'npm:ms:20170412'
+        path: composer-common > debug > ms
+    - composer-connector-server > composer-common > debug > ms:
+        patched: '2023-08-29T20:26:53.712Z'
+        id: 'npm:ms:20170412'
+        path: composer-connector-server > composer-common > debug > ms
+    - composer-connector-server > composer-connector-hlfv1 > composer-common > debug > ms:
+        patched: '2023-08-29T20:26:53.712Z'
+        id: 'npm:ms:20170412'
+        path: >-
+          composer-connector-server > composer-connector-hlfv1 > composer-common
+          > debug > ms
