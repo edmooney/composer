@@ -18,7 +18,9 @@
     "postdoc": "npm run lint",
     "lint": "eslint .",
     "start": "node cli.js",
-    "test": "nyc mocha --recursive -t 10000"
+    "test": "nyc mocha --recursive -t 10000",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -67,7 +69,8 @@
     "request": "2.81.0",
     "semver": "5.3.0",
     "socket.io": "1.7.3",
-    "tar": "3.1.5"
+    "tar": "3.1.5",
+    "@snyk/protect": "latest"
   },
   "nyc": {
     "exclude": [
@@ -87,5 +90,6 @@
     "branches": 44,
     "functions": 46,
     "lines": 44
-  }
+  },
+  "snyk": true
 }
