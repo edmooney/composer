@@ -15,11 +15,11 @@
     "liveNetworkTest": "mocha -t 0 test/angular-network.js"
   },
   "dependencies": {
-    "composer-client": "0.14.0",
-    "composer-common": "0.14.0",
+    "composer-client": "0.19.15",
+    "composer-common": "0.19.15",
     "shelljs": "0.7.7",
     "underscore.string": "3.3.4",
-    "yeoman-generator": "0.24.1"
+    "yeoman-generator": "2.0.0"
   },
   "repository": {
     "type": "git",
