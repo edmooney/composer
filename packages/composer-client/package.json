@@ -43,8 +43,8 @@
     "logError": true
   },
   "dependencies": {
-    "composer-common": "0.14.0",
-    "composer-connector-hlfv1": "0.14.0",
+    "composer-common": "0.19.3",
+    "composer-connector-hlfv1": "0.20.0",
     "uuid": "3.0.1"
   },
   "devDependencies": {
