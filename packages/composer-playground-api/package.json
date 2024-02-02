@@ -58,13 +58,13 @@
   "dependencies": {
     "async": "2.5.0",
     "body-parser": "1.17.0",
-    "composer-common": "0.14.0",
-    "composer-connector-server": "0.14.0",
+    "composer-common": "0.20.9",
+    "composer-connector-server": "0.20.9",
     "dotenv": "4.0.0",
     "express": "4.15.2",
     "http-status": "1.0.1",
     "npm-registry-client": "8.4.0",
-    "request": "2.81.0",
+    "request": "2.88.2",
     "semver": "5.3.0",
     "socket.io": "1.7.3",
     "tar": "3.1.5"
