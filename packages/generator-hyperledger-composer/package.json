@@ -15,7 +15,7 @@
     "liveNetworkTest": "mocha -t 0 test/angular-network.js"
   },
   "dependencies": {
-    "composer-client": "0.14.0",
+    "composer-client": "0.20.9",
     "composer-common": "0.14.0",
     "shelljs": "0.7.7",
     "underscore.string": "3.3.4",
