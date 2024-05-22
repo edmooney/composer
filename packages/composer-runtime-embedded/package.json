@@ -57,7 +57,7 @@
     "debug": "2.6.2",
     "istanbul-lib-instrument": "1.7.2",
     "pouchdb-adapter-memory": "6.2.0",
-    "request": "2.81.0",
+    "request": "2.88.2",
     "uuid": "3.0.1"
   },
   "nyc": {
