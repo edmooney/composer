@@ -50,7 +50,7 @@
     "loopback-boot": "2.25.0",
     "loopback-component-explorer": "4.1.1",
     "loopback-component-passport": "3.2.0",
-    "loopback-connector-composer": "0.14.0",
+    "loopback-connector-composer": "0.20.9",
     "passport-local": "1.0.0",
     "serve-favicon": "2.0.1",
     "strong-error-handler": "1.0.1",
